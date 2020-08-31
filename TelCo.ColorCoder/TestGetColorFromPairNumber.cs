@@ -10,7 +10,7 @@ namespace TelCo.ColorCoder
     class TestGetColorFromPairNumber
     {
         //This function will give some input and Test 
-        public void test() {
+        public void Test() {
 
             int pairNumber = 4;
             ColorPair testPair1 = ColorMapper.GetColorFromPairNumber(pairNumber);

@@ -7,7 +7,7 @@ namespace TelCo.ColorCoder
     // This class is responsible to map the corresponding
     //pairnumber from the given color
     // Super Class Color so that we can use the array of minot and major color.
-    class NumberMapper : MyColor
+    class NumberMapper : ColorArray
     {
         // Given the two colors the function returns the pair number corresponding to them
         // <param name="pair">Color pair with major and minor color</param>

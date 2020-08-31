@@ -14,11 +14,11 @@ namespace TelCo.ColorCoder
         {
             // test1- To test the color name from the given colorpair number
             TestGetColorFromPairNumber test1 = new TestGetColorFromPairNumber();
-            test1.test();
+            test1.Test();
 
             // test2- To test the colorpair number from the given color
             TestGetPairNumberFromColor test2 = new TestGetPairNumberFromColor();
-            test2.test();
+            test2.Test();
 
         }
     }
