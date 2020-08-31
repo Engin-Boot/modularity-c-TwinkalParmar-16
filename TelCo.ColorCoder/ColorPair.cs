@@ -12,29 +12,5 @@ namespace TelCo.ColorCoder
         public override string ToString(){
 
             //for {minor color , painumber}
-            if (MajorColor == Color.White){
-                WhiteMajorColor w = new WhiteMajorColor();
-                return w.ToStringFormat(MajorColor,MinorColor);
-                
-            }
-            if (MajorColor == Color.Red){
-                RedMajorColor r = new RedMajorColor();
-                return r.ToStringFormat(MajorColor, MinorColor);
-                
-            }
-            if (MajorColor == Color.Black){
-                BlackMajorColor b = new BlackMajorColor();
-                return b.ToStringFormat(MajorColor, MinorColor);
-            }
-            if (MajorColor == Color.Yellow)
-            {
-                YellowMajorColor y = new YellowMajorColor();
-                return y.ToStringFormat(MajorColor, MinorColor);
-            }
-            else
-            {
-                VioletMajorColor v = new VioletMajorColor();
-                return v.ToStringFormat(MajorColor, MinorColor);
-            }
-            
+            return string.Format("MajorColor:{0}, MinorColor:{1}", MajorColor.Name, MinorColor.Name);
         }}}
